@@ -43,12 +43,14 @@ tr:nth-of-type(odd){
     form{
         width: 40%;
         grid-gap: 1em;
-        width: 6em;
-        width: 1 fr;
-        
+        display: grid;
+        grid-template-columns: 6em 1fr;
+        grid-template-rows: auto;
+
     
     }
-    button{
+    button[submit]{
+        grid-column: 2;
         width: 9em;
     }
   
